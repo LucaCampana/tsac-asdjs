@@ -408,7 +408,7 @@ function ex_7_I(a, b){
 }
 
 function ex_8_I(array){
-	return toBidimensiona(array);
+	return toBidimensional(array);
 }
 
 function ex_9_I(array){
