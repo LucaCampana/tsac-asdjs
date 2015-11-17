@@ -79,7 +79,7 @@ function div(a, b){
 		di -= b;
 		foo ++;
 	}
-	return foo + " resto " + di;
+	return [foo, di];//foo + " resto " + di;
 }
 
 /*Esercizio 7
@@ -268,7 +268,7 @@ function reDiv(a, b){
 }
 
 function rDiv(b, times, sub){
-	if (sub < b) return times + " resto " + sub;
+	if (sub < b) return [times, sub];//times + " resto " + sub;
 	return rDiv(b, times + 1, sub - b);
 }
 
