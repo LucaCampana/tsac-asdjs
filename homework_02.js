@@ -71,7 +71,7 @@ function div(a, b){
 		di -= b;
 		foo ++;
 	}
-	return foo + " resto " + di;
+	return [foo, di];
 }
 
 /*Esercizio 7
@@ -105,7 +105,7 @@ function toBidimensional(array){
 }
 
 /*Esercizio 9
-Dato una lista di elementi, scrivere un algoritmo che permetta di invertire lâ€™ordine degli
+Dato una lista di elementi, scrivere un algoritmo che permetta di invertire lÃ¢â‚¬â„¢ordine degli
 elementi.
 Esempio:
 Input: A = {2, 5, 8}
